@@ -75,6 +75,7 @@
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:visibility="invisible"
                 android:text="Detect Text"
                 android:textColor="#FFF"
                 android:background="@drawable/detectbtncolor"
