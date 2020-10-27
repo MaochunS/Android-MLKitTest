@@ -145,6 +145,7 @@ public class OCRPreviewActivity extends AppCompatActivity {
 
             // Clear the overlay first
             graphicOverlay.clear();
+            TextGraphic.textAndLocArray.clear();
 
             float scaleFactor = (float) imageBitmapOri.getWidth() / Resources.getSystem().getDisplayMetrics().widthPixels; //(float) imageView.getWidth();
 
@@ -156,7 +157,6 @@ public class OCRPreviewActivity extends AppCompatActivity {
                             true);
 
             imageView.setImageBitmap(imageBitmap);
-
 
             if (imageProcessor != null) {
                 graphicOverlay.setImageSourceInfo(
